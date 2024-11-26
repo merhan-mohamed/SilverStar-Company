@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --FirstColor: #6c6d72;
+    
+}
+
+/****header********/
+button.login {
+    color: black;
+    border:var(--FirstColor) solid 1px ;
+    border-radius: 5px;
+}
+button.login:hover
+{
+    color:white !important;
+    background-image: linear-gradient(To right, var(--FirstColor) , black) !important;
+    
+}
+button.signup{
+    background-image:linear-gradient(To right, var(--FirstColor) , black);
+    color:white;
+    border-radius: 5px;
+}
+
+nav a {
+    color:black !important;
+}
+nav a:hover{
+   color :var(--FirstColor) !important
+}
+
+/**********End Of Header**************/
+
+
+/**************Advertise**************************/
+
+.Discount
+{
+    background-image:linear-gradient(To right, var(--FirstColor) , black);
+}
+
+.precent {
+    animation: animate 10s ease-in-out;
+  }
+@keyframes animate {
+    from{
+        width: 170px; 
+        height: 170px;
+       
+    }to{
+        width: 200px; 
+        height: 200px;
+    }}
+
+    /**************End Of Advertise**************************/
+
+    /******************Products**********************************/
+ 
+   .item{
+    height: 9rem !important;
+    width: 9rem !important;
+    border-radius: 50%;
+    background: whitesmoke;
+    color: white; 
+    display: inline-block !important; 
+    background-image: cover;
+   } 
+
+   .card{
+      aspect-ratio:16/9;
+      max-height:230px;
+   }
+
+   .cardChair{
+   max-height: 330px;
+ }
+   .cardDiv{
+    height: 450px !important;  
+   }
+   .cardDiv div
+   { 
+    max-width: 400px !important; 
+   }
+
+   .cardDiv h5{
+    max-height: 400px;
+    display: inline-block;
+   }
+
+
+   /***********************End Of Products******************************/
+
+
+   /*************************Footer**********************************/
+
+   .foot {
+    background-image:linear-gradient(To bottom , var(--FirstColor) , black);
+   }
+
+    /*************************End Of Footer**********************************/
+
+    .works
+    {
+       
+      
+    }
+
+    
