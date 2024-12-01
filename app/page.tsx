@@ -1,5 +1,6 @@
 import { DarkThemeToggle} from "flowbite-react";
 
+
 import { Advertise, Header , Hero, Categories, MeetingTables, Desk, MeshChairs, Footer, OurWorks} from "@/components";
 import "./globals.css"
 
@@ -13,7 +14,7 @@ export default function Home() {
     <MeetingTables/>
     <Desk/>
     <MeshChairs/>
-    <OurWorks/>
+   
     <Footer/>
     </>
   );

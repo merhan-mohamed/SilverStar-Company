@@ -103,10 +103,22 @@ nav a:hover{
 
     /*************************End Of Footer**********************************/
 
-    .works
+
+     /*************************Login & SignUP**********************************/
+    .login>button
     {
-       
+       background-color: black !important;
       
     }
+     /*****************End Of Login & SignUP**********************************/
 
+
+     .about{
+        background-image: url("/assets/aboutus.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+       
+      
+      
+     }
     

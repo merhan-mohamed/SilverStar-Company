@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 import webpack from 'webpack';
 const nextConfig = {
-    reactStrictMode:true,
+    reactStrictMode:false,
     webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => 
      {
         config.plugins.push(

@@ -5,6 +5,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -12,7 +13,9 @@ const Footer = () => {
         <div className='pt-5 flex sm:flex-row flex-col justify-between sm:items-center items-baseline gap-5'>
       
         <div className='flex flex-col'>
+            <Link href="/">
             <img src="/assets/logo.png"  alt="Silver Star Logo"  className='w-52'/>
+            </Link>
             <p className='text-xs text-white text-justify w-[350px]'>Silver Star Company has occupied a unique position as one of the leading companies in the Egyptian office and home furniture industry, since 1998 and over thirteen years. We offered and produced more than 50 thousand unique design, which made of natural wood materials and high quality fabric.To provide elegant luxuries touch to your office and home.</p>
             <div className='flex gap-1 mt-4'>
                 <MdOutlineMail className='text-white'/>
@@ -32,7 +35,7 @@ const Footer = () => {
             <h5 className='sm:-mt-[90px] -mt-[0] text-black font-extrabold'>Customer Support</h5>
        
             <ul className='mt-4 gap-3'>
-                <li className='text-white text-xs mb-2'>About US</li>
+                <li className='text-white text-xs mb-2'><Link href='/About'>About US</Link></li>
                 <li className='text-white text-xs mb-2'>Blog</li>
                 <li className='text-white text-xs mb-2'>Contact US</li>
             </ul>

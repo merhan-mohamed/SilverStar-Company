@@ -36,13 +36,13 @@ export const categoriesData =
 },
 {
     id: "8",
-    img: "",
-    title: "Meeting Tables"
+    img: "/assets/Category/dressingroom.jpg",
+    title: "Dressing Rooms"
 },
 {
     id: "9",
-    img: "",
-    title: "Meeting Tables"
+    img: "/assets/Category/lockers.jpg",
+    title: "Lockers"
 },
 ]
 
