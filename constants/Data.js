@@ -2,47 +2,56 @@ export const categoriesData =
 [ {
     id: "1",
     img: "/assets/Category/roundmeeting.png" ,
-    title: "Meeting Table"
+    title: "Meeting Table",
+    section:"#MeetingTables"
 },
 {
     id: "2",
     img: "/assets/Category/workcell.png",
-    title: "Work Station"
+    title: "Work Station",
+    section:"#MeetingTables"
 },
 {
     id: "3",
     img: "/assets/Category/deskwood.png",
-    title: "Desk Wood"
+    title: "Desk Wood",
+    section:"#MeetingTables"
 },
 {
     id: "4",
     img: "/assets/Category/PUChair.png",
-    title: "PU Chair"
+    title: "PU Chair",
+    section:"#MeetingTables"
 },
 {
     id: "5",
     img: "/assets/Category/meshchair.png",
-    title: "Mesh Chair"
+    title: "Mesh Chair",
+    section:"#MeetingTables"
 },
 {
     id: "6",
     img: "/assets/Category/sofa.png",
-    title: "Sofa"
+    title: "Sofa",
+    section:"#MeetingTables"
 },
 {
     id: "7",
     img: "/assets/Category/reception.png",
-    title: "Reception Desk"
+    title: "Reception Desk",
+    section:"#MeetingTables"
 },
 {
     id: "8",
     img: "/assets/Category/dressingroom.jpg",
-    title: "Dressing Rooms"
+    title: "Dressing Rooms",
+    section:"#MeetingTables"
 },
 {
     id: "9",
     img: "/assets/Category/lockers.jpg",
-    title: "Lockers"
+    title: "Lockers",
+    section:"#MeetingTables"
 },
 ]
 
@@ -96,9 +105,144 @@ export const meetingtablesInfo = [
         dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
         title:"Oval Meeting Table "
-
-
     },
+    {
+        id:"7",
+        image:"/assets/MeetingTable/t8.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"8",
+        image:"/assets/MeetingTable/t9.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"9",
+        image:"/assets/MeetingTable/t10.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"10",
+        image:"/assets/MeetingTable/t11.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"11",
+        image:"/assets/MeetingTable/t12.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"12",
+        image:"/assets/MeetingTable/t13.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"13",
+        image:"/assets/MeetingTable/t14.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"14",
+        image:"/assets/MeetingTable/t15.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"15",
+        image:"/assets/MeetingTable/t16.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"16",
+        image:"/assets/MeetingTable/t17.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"17",
+        image:"/assets/MeetingTable/t18.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"18",
+        image:"/assets/MeetingTable/t19.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"19",
+        image:"/assets/MeetingTable/t19.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"20",
+        image:"/assets/MeetingTable/t18.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"21",
+        image:"/assets/MeetingTable/t19.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"22",
+        image:"/assets/MeetingTable/t20.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"23",
+        image:"/assets/MeetingTable/t21.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"24",
+        image:"/assets/MeetingTable/t22.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+    {
+        id:"25",
+        image:"/assets/MeetingTable/t23.jpg",
+        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        description: "Tialand MDF Wood",
+        title:"Oval Meeting Table "
+    },
+
+
+
+
    
 ]
 

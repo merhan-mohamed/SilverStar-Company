@@ -29,7 +29,7 @@ const Header = () => {
         Home
       </Navbar.Link>
       <Navbar.Link href="/About">About</Navbar.Link>
-      <Navbar.Link href="#">Services</Navbar.Link>
+      <Navbar.Link href="#Categories">Services</Navbar.Link>
       <Navbar.Link href="#">Pricing</Navbar.Link>
       <Navbar.Link href="#">Contact</Navbar.Link>
     </Navbar.Collapse>

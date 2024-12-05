@@ -30,11 +30,11 @@ const MeetingTables = () => {
 
         }, [])
   return (
-    <div className='container px-4 mt-16'>
+    <div className='container px-4 mt-16' id="MeetingTables">
       <div className='flex justify-between items-center mb-5'>
         <h1 className='sm:text-2xl text-[16px] font-extrabold underline decoration-4 decoration-gray-700'>Meeting Tables Collection</h1>
         <div className='flex justify-end items-center'>
-        <h6 className='sm:text-[17px] text-[8px]'><Link href="">View all</Link> </h6>
+        <h6 className='sm:text-[17px] text-[8px]'><Link href="/MeetingTables">View all</Link> </h6>
         <IoMdArrowDropright/> 
        
         </div>

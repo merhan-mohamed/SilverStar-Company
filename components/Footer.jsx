@@ -38,6 +38,7 @@ const Footer = () => {
                 <li className='text-white text-xs mb-2'><Link href='/About'>About US</Link></li>
                 <li className='text-white text-xs mb-2'>Blog</li>
                 <li className='text-white text-xs mb-2'>Contact US</li>
+                <li className='text-white text-xs mb-2'><Link href='#Categories'>Services</Link></li>
             </ul>
         </div>
 

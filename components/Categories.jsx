@@ -2,6 +2,7 @@
 import {categoriesData} from "../constants/Data";
 import React from 'react';
 import "../app/globals.css";
+import Link from "next/link";
 var $ = require("jquery");
 if (typeof window !== "undefined") {
    window.$ = window.jQuery = require("jquery");
@@ -20,7 +21,7 @@ const Categories = () => {
 
 
   return (
-    <div className='container px-4 mt-16'>
+    <div className='container px-4 mt-16' id="Categories">
       <h1 className='text-2xl font-extrabold underline decoration-4 decoration-gray-700 mb-5' >Shop By Categories</h1>
       
       <OwlCarousel className="owl-theme"
@@ -52,10 +53,12 @@ const Categories = () => {
                 >
           {categoriesData.map((Category) => (
           <div className='mt-8' key={Category.id}>
+            <Link href={Category.section}>
              <img src={Category.img} className="item px-2 hover:-translate-y-8 ease-in-out"/>
             <div>
               <h2 className="text-black text-center mt-3">{Category.title}</h2>
              </div>
+             </Link>
        
           </div>
          

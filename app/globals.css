@@ -113,12 +113,22 @@ nav a:hover{
      /*****************End Of Login & SignUP**********************************/
 
 
+     /*****************About**********************************/
+
      .about{
         background-image: url("/assets/aboutus.jpg");
         background-repeat: no-repeat;
-        background-position: center center;
-       
-      
-      
+        background-position: center center; 
+     }
+
+     /***************** End Of About**********************************/
+     .btnFilter{
+        background: linear-gradient( var(--FirstColor) , white) !important;
+        border:none
+
+     }
+     .btnFilter:hover{
+        background: linear-gradient( var(--FirstColor) , black) !important;;
+        color:white !important;
      }
     
