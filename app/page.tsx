@@ -7,6 +7,7 @@ import "./globals.css"
 export default function Home() {
   return (
     <>
+    
     <Header/>
     <Hero/>
     <Advertise/>

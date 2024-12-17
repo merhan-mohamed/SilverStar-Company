@@ -6,6 +6,7 @@ const page = () => {
   return (
     
     <div className="container">
+   
       <div className="about h-80 mx-auto">
         <h1 className="text-5xl text-white font-bold text-center p-10">About US</h1>
         <p  className='text-white font-bold text-center'>Silver Star Company is an egyption company for office and home furniture since 1998 <br/> which introduce a various styles of products with high quality <br/> that suitable for our client desiring </p>
