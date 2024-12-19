@@ -54,14 +54,9 @@ function filteredData(meetingtablesInfo, selected, query){
   if(selected){
     filteredproducts = filteredproducts.filter(({price}) => price === selected);
   }
-  return filteredproducts.map(({id, image, title, price, description, dimension}) => (
+  return filteredproducts.map((item) => (
     <Card 
-    key={id}
-    image={image}
-    title={title}
-    description={description}
-    price={price}
-    dimension={dimension}
+     item={item}
     />
   )
   )

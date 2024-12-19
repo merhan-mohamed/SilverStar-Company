@@ -77,7 +77,9 @@ const MeetingTables = () => {
 
 
       {/******Card********/} 
+ 
   {meetingtablesInfo.map((Table) => (
+     <Link href={`/MeetingTable_Product/` + Table.id}>
       <Card
       className="cardDiv max-w-sm" key={Table.id}
       renderImage={() => <img className='card hover:scale-125' src={Table.image} alt={Table.title}/>}
@@ -93,7 +95,9 @@ const MeetingTables = () => {
   
     
       </Card>
+      </Link>
     ))}
+
           </OwlCarousel>
          </div>
      

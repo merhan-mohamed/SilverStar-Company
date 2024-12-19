@@ -1,11 +1,12 @@
 import React from 'react'
 
-const SingleCard = () => {
+const page = () => {
+  
   return (
     <div>
-     hi
+    hhhhhhh
     </div>
   )
 }
 
-export default SingleCard
+export default page

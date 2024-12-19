@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
     
-    <Header/>
+   
     <Hero/>
     <Advertise/>
     <Categories/>
@@ -16,7 +16,7 @@ export default function Home() {
     <Desk/>
     <MeshChairs/>
    
-    <Footer/>
+ 
     </>
   );
 }

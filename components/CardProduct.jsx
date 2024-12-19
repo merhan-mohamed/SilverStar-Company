@@ -1,39 +1,42 @@
 import React from 'react';
 import {Card} from "flowbite-react";
-import SingleProduct from "@/components";
+import { useRouter } from "next/router"
 
 import Link from 'next/link';
 
 
-const CardProduct = ({id, image, title, price, description, dimension}) => {
+const CardProduct = ({item}) => {
+ 
+  
+
 
  
   return (
     <>
-       <Link href={{pathname:"/SingleProduct" , query:{title}}}>
-       <Card 
-        className="cardDiv max-w-xs" key={id}
-        renderImage={() => <img className='card hover:scale-125' src={image} alt={title}
-        />}
+     <Link href={`/MeetingTable_Product/` + item.id}>
+       <Card
+        className="cardDiv max-w-xs" key={item.id}
+        renderImage={() => <img className='card hover:scale-125' src={item.image} alt={item.title}
+        key={item.id}
+       />}
     >
      
       <h5 className="tracking-tight text-gray-900 dark:text-white pb-7 ">
-        {title}
+        {item.title}
       </h5>
 
       <p className="font-normal text-gray-700 dark:text-gray-400">
-      {description} - {dimension}
+      {item.description} - {item.dimension}
     </p>
   
      
       <p className="font-bold text-2xl  text-black">
-        {price}
+        {item.price}
       </p>
     
       
        </Card>
-       </Link>
-      
+      </Link>
        
     </>
   )
