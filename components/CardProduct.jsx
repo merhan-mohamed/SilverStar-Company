@@ -6,11 +6,7 @@ import Link from 'next/link';
 
 
 const CardProduct = ({item}) => {
- 
-  
-
-
- 
+  console.log("cp" ,item)
   return (
     <>
      <Link href={`/MeetingTable_Product/` + item.id}>

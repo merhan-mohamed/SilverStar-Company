@@ -14,8 +14,8 @@ const SideBar = ({sorting , setSorting}) => {
     <hr className="-mt-5 mb-5 w-36"/>
 
     <div>
-    <input type="radio" name="sort" id="all" value={sorting} onChange={ChangeHandler}/>
-    <label htmlFor="all" className="text-white ml-2" >All</label>
+    <input type="radio" name="sort" id="all" value={sorting} onChange={ChangeHandler} />
+    <label htmlFor="all" className="text-white ml-2">All</label>
     </div>
     
     <div className='mt-2'>

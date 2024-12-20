@@ -57,7 +57,7 @@ export const categoriesData =
 
 export const meetingtablesInfo = [
     {
-        id:"1",
+        id:"0",
         image:"/assets/MeetingTable/t1.jpg",
         dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm. ",
         description: "Tialand MDF Wood",
@@ -66,7 +66,7 @@ export const meetingtablesInfo = [
 
     },
     {
-        id:"2",
+        id:"1",
         image:"/assets/MeetingTable/t2.jpg",
         dimension: "100*100*75cm, 120*120*75cm, 140*140*75cm, 160*160*75cm.",
         description: "Tialand MDF Wood With Metal Chassis",
@@ -75,7 +75,7 @@ export const meetingtablesInfo = [
 
     },
     {
-        id:"3",
+        id:"2",
         image:"/assets/MeetingTable/t3.jpg",
         dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood With Metal Chassis",
@@ -85,7 +85,7 @@ export const meetingtablesInfo = [
 
     },
     {
-        id:"4",
+        id:"3",
         image:"/assets/MeetingTable/t5.jpg",
         dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood.",
@@ -95,7 +95,7 @@ export const meetingtablesInfo = [
 
     },
     {
-        id:"5",
+        id:"4",
         image:"/assets/MeetingTable/t6.jpg",
         dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood With Metal Chassis",
@@ -105,164 +105,164 @@ export const meetingtablesInfo = [
 
     },
     {
-        id:"6",
+        id:"5",
         image:"/assets/MeetingTable/t7.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "140*120cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
         title:"Oval Meeting Table ",
         price:"35.000"
     },
     {
-        id:"7",
+        id:"6",
         image:"/assets/MeetingTable/t8.jpg",
         dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"40.000"
     },
     {
-        id:"8",
+        id:"7",
         image:"/assets/MeetingTable/t9.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "160*120cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"45.000  "
     },
     {
-        id:"9",
+        id:"8",
         image:"/assets/MeetingTable/t10.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "160*120*75cm, 180*120*75cm, 200*120*75cm, 220*120*75cm.",
         description: "Tialand MDF Wood",
         title:"Oval Meeting Table ",
         price:"50.000  "
     },
     {
-        id:"10",
+        id:"9",
         image:"/assets/MeetingTable/t11.jpg",
         dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"55.000  "
     },
     {
-        id:"11",
+        id:"10",
         image:"/assets/MeetingTable/t12.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "240*120cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"60.000  "
     },
     {
-        id:"12",
+        id:"11",
         image:"/assets/MeetingTable/t13.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "240*120cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"65.000  "
     },
     {
-        id:"13",
+        id:"12",
         image:"/assets/MeetingTable/t14.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "160*120cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"70.000  "
     },
     {
-        id:"14",
+        id:"13",
         image:"/assets/MeetingTable/t15.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "280*140*75cm, 260*140*75cm, 240*120*75cm, 200*120*75cm, 220*120*75cm.",
         description: "Tialand MDF Wood",
         title:"Oval Meeting Table ",
         price:"75.000  "
     },
     {
-        id:"15",
+        id:"14",
         image:"/assets/MeetingTable/t16.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "240*120cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"80.000  "
     },
     {
-        id:"16",
+        id:"15",
         image:"/assets/MeetingTable/t17.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "240*120cm, 180*120cm, 200*120cm, 220*120cm.",
         description: "Tialand MDF Wood",
         title:"Oval Meeting Table ",
         price:"85.000  "
     },
     {
-        id:"17",
+        id:"16",
         image:"/assets/MeetingTable/t18.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "280*180cm, 300*180cm, 320*200cm, 340*200cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"90.000  "
     },
     {
-        id:"18",
+        id:"17",
         image:"/assets/MeetingTable/t19.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        dimension: "220*120*75cm, 240*120*75cm, 260*140*75cm, 280*140*75cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"95.000  "
     },
     {
-        id:"19",
-        image:"/assets/MeetingTable/t19.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        id:"18",
+        image:"/assets/MeetingTable/t20.jpg",
+        dimension: "200*120*75cm, 220*120*75cm, 240*120*75cm, 260*140*75cm,  280*140*75cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
-        price:"100.000  "
-    },
-    {
-        id:"20",
-        image:"/assets/MeetingTable/t18.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
-        description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"120.000  "
     },
     {
-        id:"21",
-        image:"/assets/MeetingTable/t19.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        id:"19",
+        image:"/assets/MeetingTable/t21.jpg",
+        dimension: "300*160*75cm, 320*160*75cm, 340*160*75cm, 360*160*75cm.",
         description: "Tialand MDF Wood",
         title:"Oval Meeting Table ",
         price:"130.000  "
     },
     {
-        id:"22",
-        image:"/assets/MeetingTable/t20.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        id:"20",
+        image:"/assets/MeetingTable/t22.jpg",
+        dimension: "300*200*75cm, 320*200*75cm, 340*200*75cm, 360*200*75cm.",
         description: "Tialand MDF Wood",
         title:"Oval Meeting Table ",
         price:"140.000  "
     },
     {
-        id:"23",
-        image:"/assets/MeetingTable/t21.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        id:"21",
+        image:"/assets/MeetingTable/t23.jpg",
+        dimension: "300*200*75cm, 320*200*75cm, 340*200*75cm, 360*200*75cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"Rectangular Meeting Table ",
         price:"150.000  "
     },
     {
-        id:"24",
-        image:"/assets/MeetingTable/t22.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        id:"22",
+        image:"/assets/MeetingTable/t24.jpg",
+        dimension: "100*75cm, 120*75cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"circle Meeting Table ",
         price:"160.000  "
     },
     {
-        id:"25",
-        image:"/assets/MeetingTable/t23.jpg",
-        dimension: "140*100cm, 160*100cm, 180*120cm, 200*120cm, 220*120cm.",
+        id:"23",
+        image:"/assets/MeetingTable/t25.jpg",
+        dimension: "100*75cm, 120*75cm.",
         description: "Tialand MDF Wood",
-        title:"Oval Meeting Table ",
+        title:"circle Meeting Table ",
         price:"170.000  "
+    },
+    {
+        id:"24",
+        image:"/assets/MeetingTable/t26.jpg",
+        dimension: "100*75cm, 120*75cm.",
+        description: "Tialand MDF Wood",
+        title:"circle Meeting Table ",
+        price:"180.000  "
     },
 
 
