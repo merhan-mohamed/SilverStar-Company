@@ -34,7 +34,7 @@ const Desk = () => {
       <div className='flex justify-between items-center mb-5'>
         <h1 className='sm:text-2xl text-[16px] font-extrabold underline decoration-4 decoration-gray-700'>Desk Collection</h1>
         <div className='flex justify-end items-center'>
-        <h6 className='sm:text-[17px] text-[8px]'><Link href="">View all</Link> </h6>
+        <h6 className='sm:text-[17px] text-[8px]'><Link href="/Desk">View all</Link> </h6>
         <IoMdArrowDropright/> 
        
         </div>
@@ -79,9 +79,11 @@ const Desk = () => {
 
           {/******Card********/}
       {DisksInfo.map((disk) => (
+         <Link href={`/MeetingTable_Product/` + disk.id}>
           <Card
-          className="cardDiv max-w-sm" key={disk.id}
-          renderImage={() => <img className='card hover:scale-125' src={disk.image} alt={disk.title}/>}
+          className="cardDiv max-w-sm" 
+          renderImage={() => <img className='card hover:scale-125' src={disk.image} alt={disk.title}
+          key={disk.id} />}
       >
        
         <h5 className="font-bold tracking-tight text-gray-900 dark:text-white pb-7 ">
@@ -94,6 +96,7 @@ const Desk = () => {
       
         
           </Card>
+          </Link>
         ))}
       </OwlCarousel>
       </div>

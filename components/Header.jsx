@@ -1,11 +1,13 @@
 'use client';
 import { Button, Navbar } from "flowbite-react";
-import { useRouter } from "next/navigation";
+import { useRouter, Link } from "next/navigation";
 import "../app/globals.css"
+import { useSelector } from "react-redux";
 
 
 const Header = () => {
   const router = useRouter()
+  const {loading, cartItems} = useSelector((state) => state.cart)
   return (
     <div className="container">
     <Navbar fluid rounded>
@@ -17,10 +19,20 @@ const Header = () => {
       <button type="button"className="login text-sm mr-3 px-3 py-2" 
       onClick={() => {router.push("/login")}} >
         Login
-      </button>
-      
-      
+      </button>  
       <button type="button" className="signup text-sm px-3 py-2 mr-3" onClick={() => {router.push("/SignUp")}}>Sign Up</button>
+
+    
+      <div className="signup text-sm px-3 py-2 mr-3" >
+      <span className="cart-badge">
+        {loading ? " " : cartItems.reduce((a,c) => a + c.qty, 0) }
+      </span>
+       Cart
+      </div>
+    
+
+
+
       <Navbar.Toggle />
     </div>
     

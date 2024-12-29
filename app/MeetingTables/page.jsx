@@ -82,7 +82,7 @@ console.log("fd",filteredData)******/}
 
 
 {/***Pagenation****/}
-  {/**const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(6);
   const lastPostIndex = currentPage * postsPerPage;
   const firstPostIndex = lastPostIndex - postsPerPage;
@@ -99,16 +99,16 @@ console.log("fd",filteredData)******/}
    <div className='flex gap-20'>
     <SideBar sorting={sorting}  setSorting={setSorting} />
      <div className='flex items-center flex-wrap gap-10'>
-    <Products result={result}/>
+    <Products result={currentPosts}/>
     </div>
    </div>
    </div>  
 
-    {/*****<NumPages   
+    <NumPages   
     totalPosts={result.length}
     postsPerPage={postsPerPage}
     currentPage={currentPage}
-    setCurrentPage={setCurrentPage}/> *****/}
+    setCurrentPage={setCurrentPage}/> 
 
 
     <Footer/>

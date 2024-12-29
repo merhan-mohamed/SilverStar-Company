@@ -131,4 +131,10 @@ nav a:hover{
         background: linear-gradient( var(--FirstColor) , black) !important;;
         color:white !important;
      }
+
+     /***************************cart******************/
+     .cart-badge
+     {
+        @apply absolute font-bold text-black ml-8 mt-0 text-center w-4
+     }
     

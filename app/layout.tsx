@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeModeScript } from "flowbite-react";
 import {Header, Footer} from "@/components";
+import App from "@/components/App" ;
+import {StoreProvider} from "@/redux/StoreProvider";
 import "./globals.css";
 
 
@@ -26,9 +28,14 @@ export default function RootLayout({
         <ThemeModeScript />
       </head>
       <body className={inter.className}>
-      <Header/>
-        {children}
+      <StoreProvider>
+     
+      
+        <App>{children}</App>
+      
       <Footer/>
+      </StoreProvider>
+    
       </body>
      
     

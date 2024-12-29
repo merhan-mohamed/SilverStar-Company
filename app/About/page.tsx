@@ -60,7 +60,6 @@ const page = () => {
       <OurWorks/>
 
 
-      <Footer/>
     </div>
 
   

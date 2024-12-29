@@ -82,7 +82,8 @@ const MeetingTables = () => {
      <Link href={`/MeetingTable_Product/` + Table.id}>
       <Card
       className="cardDiv max-w-sm" key={Table.id}
-      renderImage={() => <img className='card hover:scale-125' src={Table.image} alt={Table.title}/>}
+      renderImage={() => <img className='card hover:scale-125' src={Table.image} alt={Table.title} 
+      key={Table.id} />}
   >
    
     <h5 className="font-bold tracking-tight text-gray-900 dark:text-white pb-7 ">

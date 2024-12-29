@@ -2,10 +2,12 @@
 import { meetingtablesInfo } from '@/constants/Data';
 import { Button } from "flowbite-react";
 import React from 'react';
-
 import { Card } from "flowbite-react";
+import AddToCart from "@/components/AddToCart";
 
-export default async function DetailsPage({ params }) {
+
+
+export default function DetailsPage({ params }) {
     console.log("params" , params)
     let index = (params.id)
     console.log("index" , (index))
@@ -30,11 +32,11 @@ export default async function DetailsPage({ params }) {
       <div>
         <h1 className='text-5xl mb-5 tracking-wide font-semibold'>{meetingtablesInfo[data].title}</h1>
         <p className='text-3xl text-red-600 font-bold mb-5'>EGP {meetingtablesInfo[data].price}</p>
-        <p className='mb-5'>QTY</p>
         <div className='flex gap-5 mb-10'>
-        <Button className='w-52' color="dark" pill>
+          <AddToCart showQty={false} product={meetingtablesInfo[data]} increasePerClick={true} redirect={false} />
+        {/***<Button className='w-52' color="dark" pill>
           ADD TO CART
-       </Button>
+       </Button>*****/}
         <Button className='w-52' color="failure" pill>
           BUY NOW
         </Button>

@@ -16,7 +16,7 @@ const NumPages = ({  totalPosts, postsPerPage, currentPage, setCurrentPage}) => 
   return (
     
     <div className="flex overflow-x-auto sm:justify-center mt-5">
-      <Pagination currentPage={currentPage} totalPages={5} onPageChange={onPageChange} showIcons />
+      <Pagination currentPage={currentPage} totalPages={Math.ceil(totalPosts/postsPerPage)} onPageChange={onPageChange} showIcons />
     </div>
     
   )

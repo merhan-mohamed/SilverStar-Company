@@ -11,7 +11,7 @@ const CardProduct = ({item}) => {
     <>
      <Link href={`/MeetingTable_Product/` + item.id}>
        <Card
-        className="cardDiv max-w-xs" key={item.id}
+        className="cardDiv max-w-xs"
         renderImage={() => <img className='card hover:scale-125' src={item.image} alt={item.title}
         key={item.id}
        />}
