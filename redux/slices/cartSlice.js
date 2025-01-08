@@ -6,12 +6,12 @@ import Cookies from "js-cookie";
 const initialState = 
     Cookies.get("cart") 
     ? 
-    {...JSON.parse(Cookies.get('cart')) , loading:true}
+    {...JSON.parse(localStorage.getItem('cart')) , loading:true}
     :
     {
         loading:true,
-        cartItems:[],
-        
+        cartItems:[],  
+        shippingAddress:{}
     }
 
 
@@ -33,7 +33,7 @@ const cartSlice  = createSlice({
         state.totalPrice = (
             Number(state.itemsPrice) + Number(state.shippingPrice)
         ).toFixed(2)
-        Cookies.set("cart" , JSON.stringify(state))
+        localStorage.setItem("cart" , JSON.stringify(state))
         },
         removeFromCart: (state, action) => {
             state.cartItems = state.cartItems.filter((x) => x.id !== action.payload)
@@ -43,11 +43,16 @@ const cartSlice  = createSlice({
         state.totalPrice = (
             Number(state.itemsPrice) + Number(state.shippingPrice)
         ).toFixed(2)
+        localStorage.setItem("cart" , JSON.stringify(state))
+        },
+        saveShippingAddress:(state, action) => {
+            state.shippingAddress = action.payload
+            localStorage.setItem("cart" , JSON.stringify(state))
         },
         hideLoading:(state) => {
             state.loading = false
         },
     },
 })
-export const {addToCart, removeFromCart, hideLoading} = cartSlice.actions
+export const {addToCart, removeFromCart, hideLoading, saveShippingAddress} = cartSlice.actions
 export default cartSlice.reducer

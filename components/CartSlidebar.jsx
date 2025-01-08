@@ -3,6 +3,7 @@ import { addToCart,  removeFromCart } from "@/redux/slices/cartSlice";
 import Link from "next/link";
 import Image from "next/image";
 
+
 export default function CartSlidebar(){
     const {loading, cartItems, itemsPrice} = useSelector((state) => state.cart)
     const dispatch = useDispatch()
@@ -22,16 +23,14 @@ export default function CartSlidebar(){
             <div className="p-2 flex flex-col items-center border-b border-b-gray-600">
                 <div>Subtotal</div>
                 <div className="font-bold text-orange-700"> ${itemsPrice}</div>
-                <div>
-                    <Link href='/cart'
-                    className="w-full text-center p-1 rounded-2xl border-2">
-                        Go To Cart
-                    </Link>
-                </div>
+                <Link href='/CartPageDetails' 
+                 className="w-full text-center p-1 rounded-2xl border-2">
+                     Go To Cart
+                </Link>
 
                 {cartItems.map((item) =>(
                     <div key={item.id} className="p-2 flex flex-col items-center border-b border-b-gray-600">
-                        <Link href={`/product/${item.id}`}>
+                        <Link href={`/MeetingTable_Product/${item.id}`}>
                         <Image src={item.image} alt={item.title} width={50} height={50} className="p-1"/>
                         </Link>
                         <select  value={item.qty}
