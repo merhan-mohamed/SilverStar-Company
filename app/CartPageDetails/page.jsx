@@ -72,7 +72,7 @@ export default function CartPageDetails(){
                             </tbody>
                         </table>
                     </div>
-                    <div className="card p-5 rounded-lg border-gray-200 border-2">
+                    <div className="card p-5 rounded-lg border-gray-500 border-[1px]">
                         <ul>
                             <li>
                                 <div className="text-center">

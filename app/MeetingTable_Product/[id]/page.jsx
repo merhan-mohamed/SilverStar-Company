@@ -57,7 +57,7 @@ export default function DetailsPage({ params }) {
           ADD TO CART
        </Button>*****/}
         <Button className='w-52' color="failure" pill>
-          BUY NOW
+         <Link href="/CartPageDetails"> BUY NOW </Link>
         </Button>
         </div>
         <p className='text-sm underline mb-3 font-bold'>QUICK OVERVIEW </p>

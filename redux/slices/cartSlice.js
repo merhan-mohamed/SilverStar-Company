@@ -11,7 +11,8 @@ const initialState =
     {
         loading:true,
         cartItems:[],  
-        shippingAddress:{}
+        shippingAddress:{},
+        paymentMethod: " "
     }
 
 
@@ -49,10 +50,14 @@ const cartSlice  = createSlice({
             state.shippingAddress = action.payload
             localStorage.setItem("cart" , JSON.stringify(state))
         },
+        savePaymentMethod:(state, action) => {
+            state.paymentMethod = action.payload
+            localStorage.setItem("cart" , JSON.stringify(state))
+        },
         hideLoading:(state) => {
             state.loading = false
         },
     },
 })
-export const {addToCart, removeFromCart, hideLoading, saveShippingAddress} = cartSlice.actions
+export const {addToCart, removeFromCart, hideLoading, saveShippingAddress, savePaymentMethod} = cartSlice.actions
 export default cartSlice.reducer

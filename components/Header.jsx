@@ -1,12 +1,15 @@
 'use client';
 import { Button, Navbar } from "flowbite-react";
-import { useRouter, Link } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
+import Link from "next/link";
 import "../app/globals.css"
 import { useSelector } from "react-redux";
+import { FaCartShopping } from "react-icons/fa6";
 
 
 const Header = () => {
   const router = useRouter()
+  const pathname = usePathname()
   const {loading, cartItems} = useSelector((state) => state.cart)
   return (
     <div className="container">
@@ -23,11 +26,18 @@ const Header = () => {
       <button type="button" className="signup text-sm px-3 py-2 mr-3" onClick={() => {router.push("/SignUp")}}>Sign Up</button>
 
     
-      <div className="signup text-sm px-3 py-2 mr-3" >
-      <span className="cart-badge">
+      <div className= " signup text-sm px-3 py-2" >
+      <span className="d-block p-2">
         {loading ? " " : cartItems.reduce((a,c) => a + c.qty, 0) }
       </span>
-       Cart
+      <Link href="/CartPageDetails">
+      <FaCartShopping className="text-2xl"/> 
+      </Link>
+      {!loading && cartItems.length > 0 && pathname !== "/CartPageDetails" && (
+        <div className="w-0 h-0 absolute ml-[px] -mt-5"></div>
+      ) }
+     
+      
       </div>
     
 
