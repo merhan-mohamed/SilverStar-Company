@@ -1,5 +1,5 @@
 "use client";
-import { Button, Navbar } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import { useRouter } from "next/navigation";
 
 const Header = () => {
